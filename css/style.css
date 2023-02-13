@@ -12,3 +12,18 @@
     color: #DEDEDE;
     font-weight: 400;
 }
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    border: 1px solid #DEDEDE;
+    width: 400px;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+  }
