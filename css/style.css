@@ -5,11 +5,11 @@
     --blue: #78BDC4;
 }
 
-
 * {
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     background-color: #012C3D;
+
     color: #DEDEDE;
     font-weight: 400;
 }
@@ -22,9 +22,31 @@ body {
   }
 
   header {
-    border: 1px solid #DEDEDE;
-    width: 400px;
-    text-align: center;
+    width: 100vw;
     position: fixed;
     top: 0px;
+    border: 1px solid #DEDEDE;
   }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 80px;
+    justify-content: center;
+    border: 1px solid #DEDEDE;
+    display: flex;
+  }
+
+h1 {
+    text-align: center;
+}
+
+.material-symbols-outlined {
+            color: #DEDEDE;
+            width: 50px;
+}
+
+.nav {
+    
+}
